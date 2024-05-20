@@ -1,8 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import Image from 'next/image'
-
-import { generateJSXMeshGradient } from 'meshgrad'
+import { generateJSXMeshGradient } from 'meshgrad' // Import meshgrad
+import Image from 'next/image' // Import Image from 'next/image'
 
 import Container from 'components/Container'
 import cn from 'lib/classNames'
@@ -105,7 +104,7 @@ export default function Home() {
 function VersionBadge() {
   return (
     <span className='px-4 py-2 bg-gray-100 rounded-xl dark:bg-gray-900'>
-      v0.0.0
+      v{packageJSON.version}
     </span>
   )
 }
@@ -140,11 +139,10 @@ function GitHubButton() {
       <Image
         width={18}
         height={18}
-        src="https://img.icons8.com/fluency/18/contacts.png"
-        alt="contacts"
+        src='https://img.icons8.com/fluency/18/contacts.png'
+        alt='contacts'
       />
       Contact me
     </a>
   )
 }
-
