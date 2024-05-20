@@ -139,8 +139,8 @@ function GitHubButton() {
       className='flex items-center gap-2 px-4 py-2.5 transition duration-200 hover:bg-gray-200 dark:hover:bg-gray-900 rounded-xl'
     >
       <img
-        width={18}
-        height={18}
+        width={21}
+        height={21}
         src='https://img.icons8.com/fluency/18/contacts.png'
         alt='contacts'
       />
