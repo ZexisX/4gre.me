@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/order
 import React from 'react'
 
 import { generateJSXMeshGradient } from 'meshgrad'
@@ -13,7 +14,8 @@ export default function Home() {
   const [history, setHistory] = useState([generateJSXMeshGradient(ELEMENTS)])
   const [index, setIndex] = useState(0)
   const [isLoaded, setIsLoaded] = useState(false) // State to track if the component is loaded
-
+  
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleNewGradient = () => {
     setIndex(history.length)
     setHistory([...history, generateJSXMeshGradient(ELEMENTS)])
