@@ -1,8 +1,8 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
-import { generateJSXMeshGradient } from 'meshgrad'
-import Image from 'next/image' // Add import for next/image
 
+import { generateJSXMeshGradient } from 'meshgrad'
+
+import { useState, useEffect } from 'react'
 import Container from 'components/Container'
 import cn from 'lib/classNames'
 
