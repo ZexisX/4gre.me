@@ -1,4 +1,4 @@
-import React from 'react'
+import App from 'next/app'
 import { useEffect, useState } from 'react'
 import { generateJSXMeshGradient } from 'meshgrad' // Import meshgrad
 import Image from 'next/image' // Import Image from 'next/image'
