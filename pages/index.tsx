@@ -14,8 +14,8 @@ export default function Home() {
   const [history, setHistory] = useState([generateJSXMeshGradient(ELEMENTS)])
   const [index, setIndex] = useState(0)
   const [isLoaded, setIsLoaded] = useState(false) // State to track if the component is loaded
-  
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleNewGradient = () => {
     setIndex(history.length)
     setHistory([...history, generateJSXMeshGradient(ELEMENTS)])
@@ -38,7 +38,7 @@ export default function Home() {
       >
         <VersionBadge />
         <h1 className='font-semibold tracking-tighter text-7xl whitespace-nowrap'>
-          DOMAIN | KHANG.AI
+          DOMAIN | 4GRE.ME
         </h1>
 
         <p className='text-xl text-center text-tertiary'>
@@ -133,7 +133,7 @@ function Footer() {
 function GitHubButton() {
   return (
     <a
-      href='mailto:hello@khang.ai'
+      href='https://t.me/NotYourParentsX'
       target='_blank'
       rel='noopener noreferrer'
       className='flex items-center gap-2 px-4 py-2.5 transition duration-200 hover:bg-gray-200 dark:hover:bg-gray-900 rounded-xl'
