@@ -1,7 +1,11 @@
-import { useEffect, useState } from 'react'
-import { generateJSXMeshGradient } from 'meshgrad'
-import Container from 'components/Container'
-import cn from 'lib/classNames'
+import React from 'react';
+import { useEffect, useState } from 'react';
+import Image from 'next/image'; // Import Image from 'next/image'
+
+import { generateJSXMeshGradient } from 'meshgrad';
+
+import Container from 'components/Container';
+import cn from 'lib/classNames';
 
 const ELEMENTS = 6
 
@@ -133,9 +137,9 @@ function GitHubButton() {
       rel='noopener noreferrer'
       className='flex items-center gap-2 px-4 py-2.5 transition duration-200 hover:bg-gray-200 dark:hover:bg-gray-900 rounded-xl'
     >
-      <img
-        width="18"
-        height="18"
+      <Image
+        width={18}
+        height={18}
         src="https://img.icons8.com/fluency/18/contacts.png"
         alt="contacts"
       />
