@@ -6,8 +6,6 @@ import Image from 'next/image' // Add import for next/image
 import Container from 'components/Container'
 import cn from 'lib/classNames'
 
-
-
 const ELEMENTS = 6
 
 export default function Home() {
