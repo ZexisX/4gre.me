@@ -104,7 +104,7 @@ export default function Home() {
 function VersionBadge() {
   return (
     <span className='px-4 py-2 bg-gray-100 rounded-xl dark:bg-gray-900'>
-      v{packageJSON.version}
+      v0.0.0
     </span>
   )
 }
