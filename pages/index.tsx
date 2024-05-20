@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react'
 import Container from 'components/Container'
 import cn from 'lib/classNames'
 
-const ELEMENTS = 6
+const ELEMENTS = 600
 
 export default function Home() {
   const [isServer, setIsServer] = useState(true)
