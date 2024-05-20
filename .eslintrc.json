@@ -4,6 +4,7 @@
     "@typescript-eslint/no-unused-vars": "off",
     "import/order": "off",
     "@next/next/no-img-element": "off",
-    "prettier/prettier": "off"
+    "prettier/prettier": "off",
+    // Thêm các quy tắc khác nếu cần
   }
 }
