@@ -1,10 +1,10 @@
+import { generateJSXMeshGradient } from 'meshgrad'
 import App from 'next/app'
 import { useEffect, useState } from 'react'
-import { generateJSXMeshGradient } from 'meshgrad' // Import meshgrad
-import Image from 'next/image' // Import Image from 'next/image'
-
+import Image from 'next/image'
 import Container from 'components/Container'
 import cn from 'lib/classNames'
+
 
 const ELEMENTS = 6
 
