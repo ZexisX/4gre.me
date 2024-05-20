@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react'
 import { generateJSXMeshGradient } from 'meshgrad'
 import Container from 'components/Container'
 import cn from 'lib/classNames'
-import packageJSON from '../../meshgrad/package.json'
 
 const ELEMENTS = 6
 
@@ -102,7 +101,7 @@ export default function Home() {
 function VersionBadge() {
   return (
     <span className='px-4 py-2 bg-gray-100 rounded-xl dark:bg-gray-900'>
-      v{packageJSON.version}
+      v0.0.0
     </span>
   )
 }
