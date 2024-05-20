@@ -1,11 +1,11 @@
-import React from 'react';
-import { useEffect, useState } from 'react';
-import Image from 'next/image'; // Import Image from 'next/image'
+import React from 'react'
+import { useEffect, useState } from 'react'
+import Image from 'next/image'
 
-import { generateJSXMeshGradient } from 'meshgrad';
+import { generateJSXMeshGradient } from 'meshgrad'
 
-import Container from 'components/Container';
-import cn from 'lib/classNames';
+import Container from 'components/Container'
+import cn from 'lib/classNames'
 
 const ELEMENTS = 6
 
